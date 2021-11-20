@@ -64,10 +64,3 @@ class SMTP():
         self.clientSocket.sendall('QUIT\r\n'.encode())
         _ = self.clientSocket.recv(1024)
         print(_,'quit成功')
-
-# s=SMTP()
-# s.connect_helo(mailserver = "smtp.163.com")
-# s.auth(user_login="lee_yongqi@163.com",psw_login="VOAEJXSKAYMZVIDY")
-# s.send_to(toaddress="lee_yongqi@163.com")
-# s.send_content(subject="ceshi",contenttype="text/plain",content="eqwe")
-
