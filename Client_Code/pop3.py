@@ -100,18 +100,3 @@ class POP3():
         print(_)
 
 
-# p=POP3()
-# p.connect(mailserver = "pop.163.com")
-# p.auth(user_login="lee_yongqi@163.com",psw_login="HDNSLJOGTYUJHYHN")
-# p.getStat()
-# test=p.getAllMail()
-# print(test)
-
-
-
-# ppp=p.quit()
-# print(ppp)
-
-
-
-
